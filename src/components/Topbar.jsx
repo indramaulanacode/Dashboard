@@ -3,7 +3,7 @@ import { Avatar } from './ui.jsx'
 import { IcBell, IcDiamond, IcGear, IcGrid, IcLogOut, IcMenu, IcMoon, IcSearch, IcShield, IcSun, IcUser } from '../icons.jsx'
 
 const notifications = [
-  { id: 1, title: 'New sale received', body: 'Indra Maulana paid $1,500.00', time: '2m ago' },
+  { id: 1, title: 'New sale received', body: 'Michael Brooks paid $1,500.00', time: '2m ago' },
   { id: 2, title: 'Payout scheduled', body: 'BCA •••• 4821 on Monday', time: '1h ago' },
   { id: 3, title: 'Stock running low', body: 'Ipad Air 2024 has 12 left', time: '3h ago' },
 ]
@@ -102,12 +102,12 @@ export default function Topbar({ onMenu, theme, onTheme, query, onQuery, onNavig
 
           <div className="relative">
             <button onClick={() => { setMenu((m) => !m); setBell(false) }} className="ml-1 block" aria-label="account menu">
-              <Avatar name="Indra Maulana" size={34} />
+              <Avatar name="Michael Brooks" size={34} />
             </button>
             {menu && (
               <div className="absolute right-0 top-11 w-52 overflow-hidden rounded-xl border border-line bg-surface py-1 shadow-xl">
                 <div className="border-b border-line px-4 py-2.5">
-                  <p className="text-xs font-bold">Indra Maulana</p>
+                  <p className="text-xs font-bold">Michael Brooks</p>
                   <p className="text-[11px] text-muted">indramaulana@gmail.com</p>
                 </div>
                 {[

@@ -4,7 +4,7 @@ import { IcCheck, IcFacebook, IcInstagram, IcLinkedin, IcTwitter } from '../icon
 
 export default function Profile() {
   const [form, setForm] = useState({
-    name: 'Indra Maulana',
+    name: 'Michael Brooks',
     email: 'indramaulana@gmail.com',
     phone: '+62 812 3456 7890',
     location: 'Jakarta, Indonesia',

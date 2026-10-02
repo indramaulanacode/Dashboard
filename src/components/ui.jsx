@@ -155,7 +155,7 @@ export function Checkbox({ checked, onChange, label }) {
 
 const avatarColors = ['bg-brand', 'bg-blue', 'bg-purple', 'bg-teal', 'bg-pink', 'bg-green']
 
-export function Avatar({ name = 'Indra Maulana', size = 36, className = '', ring = false }) {
+export function Avatar({ name = 'Michael Brooks', size = 36, className = '', ring = false }) {
   const initials = name.split(' ').map((w) => w[0]).slice(0, 2).join('').toUpperCase()
   const color = avatarColors[(name.charCodeAt(0) + name.length) % avatarColors.length]
   return (

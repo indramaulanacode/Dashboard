@@ -78,7 +78,7 @@ export default function Auth({ mode, onMode, onAuth }) {
       <form onSubmit={submit} className="mt-6 space-y-4" noValidate>
         {mode === 'up' && (
           <div>
-            <Input label="Full Name" placeholder="Indra Maulana" value={form.name} onChange={set('name')} />
+            <Input label="Full Name" placeholder="Michael Brooks" value={form.name} onChange={set('name')} />
             {errors.name && <p className="mt-1 text-[11px] font-semibold text-pink">{errors.name}</p>}
           </div>
         )}

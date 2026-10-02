@@ -2,12 +2,12 @@ export const money = (n) =>
   n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2 })
 
 export const recentSales = [
-  { id: 1, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
-  { id: 2, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
-  { id: 3, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
-  { id: 4, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
-  { id: 5, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
-  { id: 6, name: 'Indra Maulana', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 1, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 2, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 3, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 4, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 5, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
+  { id: 6, name: 'Michael Brooks', email: 'indramaulana@gmail.com', amount: 1500.0 },
 ]
 
 export const overviewBars = {
