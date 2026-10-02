@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-canvas: #f4f6fb;
+  --color-surface: #ffffff;
+  --color-sunken: #f7f8fc;
+  --color-ink: #0b1220;
+  --color-muted: #6b7280;
+  --color-faint: #9aa3b2;
+  --color-line: #e8ebf3;
+  --color-brand: #ff6a00;
+  --color-brand-soft: #fff1e8;
+  --color-teal: #2dd4bf;
+  --color-green: #22c55e;
+  --color-purple: #8b5cf6;
+  --color-blue: #3b82f6;
+  --color-pink: #ec4899;
+}
+
+.dark {
+  --color-canvas: #08090c;
+  --color-surface: #101114;
+  --color-sunken: #17181c;
+  --color-ink: #f5f6f8;
+  --color-muted: #9ba1ac;
+  --color-faint: #6d7480;
+  --color-line: #232529;
+  --color-brand-soft: #241207;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-canvas text-ink font-sans antialiased;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { @apply rounded-full bg-faint/40; }
+::-webkit-scrollbar-track { background: transparent; }
