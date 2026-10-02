@@ -52,7 +52,7 @@ function Shell({ children, mode, onMode }) {
 }
 
 export default function Auth({ mode, onMode, onAuth }) {
-  const [form, setForm] = useState({ name: '', email: 'indramaulana@gmail.com', password: 'password123' })
+  const [form, setForm] = useState({ name: '', email: 'MichaelBrooks@gmail.com', password: 'password123' })
   const [show, setShow] = useState(false)
   const [errors, setErrors] = useState({})
   const [remember, setRemember] = useState(true)

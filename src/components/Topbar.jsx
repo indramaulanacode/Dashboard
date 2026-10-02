@@ -108,7 +108,7 @@ export default function Topbar({ onMenu, theme, onTheme, query, onQuery, onNavig
               <div className="absolute right-0 top-11 w-52 overflow-hidden rounded-xl border border-line bg-surface py-1 shadow-xl">
                 <div className="border-b border-line px-4 py-2.5">
                   <p className="text-xs font-bold">Michael Brooks</p>
-                  <p className="text-[11px] text-muted">indramaulana@gmail.com</p>
+                  <p className="text-[11px] text-muted">MichaelBrooks@gmail.com</p>
                 </div>
                 {[
                   { id: 'profile', name: 'My Profile', icon: IcUser },

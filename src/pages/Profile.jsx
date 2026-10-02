@@ -5,7 +5,7 @@ import { IcCheck, IcFacebook, IcInstagram, IcLinkedin, IcTwitter } from '../icon
 export default function Profile() {
   const [form, setForm] = useState({
     name: 'Michael Brooks',
-    email: 'indramaulana@gmail.com',
+    email: 'MichaelBrooks@gmail.com',
     phone: '+62 812 3456 7890',
     location: 'Jakarta, Indonesia',
     bio: 'Product designer & front-end developer building delightful dashboards.',
