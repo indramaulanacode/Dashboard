@@ -29,7 +29,7 @@ function Shell({ children, mode, onMode }) {
             ))}
           </div>
         </div>
-        <p className="relative text-[11px] text-white/40">2024 MaxFit. All rights reserved.</p>
+        <p className="relative text-[11px] text-white/40">2024 ShopStack. All rights reserved.</p>
       </div>
 
       <div className="flex flex-col items-center justify-center px-5 py-10">

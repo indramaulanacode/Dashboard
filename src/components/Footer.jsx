@@ -76,7 +76,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-6 flex flex-wrap items-center justify-between gap-2 border-t border-line pt-5 text-[11px] text-faint">
-        <span>2024 MaxFit. All rights reserved.</span>
+        <span>2024 ShopStack. All rights reserved.</span>
         <span className="flex gap-3">
           <button className="transition hover:text-brand">Twitter</button>
           <button className="transition hover:text-brand">Instagram</button>
